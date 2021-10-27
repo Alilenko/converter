@@ -3,3 +3,5 @@
 - получение данных из API с помощью fetch.
 - использование хуков useState, useEffect.
 - получение значения от пользователя и конвертация в четыре валюты.
+
+https://alilenko.github.io/converter/
