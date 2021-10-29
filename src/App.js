@@ -1,4 +1,5 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react';
+
 import './App.css'
 
 const App = () => {
@@ -9,10 +10,15 @@ const App = () => {
     useEffect(() => {
         fetch("https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json")
         .then((res) => res.json())
-        .then((data) => updateState(data));
+        .then((data) => updateState(data))
+        .catch(() => errorMasage())
     }, [])
     
-
+    const errorMasage = () => {
+      <div className="counter">
+        Что-то пошло не так...
+      </div>
+    }
     const updateState = (data) => {
         setData(data)
        

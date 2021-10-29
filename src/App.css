@@ -10,6 +10,10 @@
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
+.app-img{
+  object-fit: cover;
+  margin: 0 auto;
+}
 .counter {
   min-width: 100px;
   height: 100px;
