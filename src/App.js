@@ -30,7 +30,7 @@ const App = () => {
         const result = (init / numbersRate).toFixed(2);
         setResults(result)
     }
-    console.log('add branch Alina');
+    console.log('testing new branch');
   
     return (
       <div className="app-convert">
