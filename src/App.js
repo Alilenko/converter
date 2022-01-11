@@ -30,7 +30,9 @@ const App = () => {
         const result = (init / numbersRate).toFixed(2);
         setResults(result)
     }
-    console.log('Testing Git');
+
+    console.log('testing git');
+
   
     return (
       <div className="app-convert">
